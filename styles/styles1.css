@@ -1,21 +1,48 @@
-main{
+:root{
+    --fonte-principal: 'Montserrat';
+    --fonte-secundaria: 'Inter';
+}
+
+.main_div{
     display: flex;
     flex-direction: row;
-    margin: 11.62rem 4.8rem 17.8rem 15rem;
+    margin: 186px 0 0 240px;
+    gap: 32px;
 }
 
 .main_text{
     gap: 32px;
+    width: 31.37rem;
 }
 
 .main_text1{
-    font: var(--fonte-principal);
+    font-family: var(--fonte-principal);
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
+    line-height: 59px;
 }
 
 .main_text2{
-    font: var(--fonte-principal);
+    font-family: var(--fonte-principal);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 }
+
+.main_foto_engnet{
+    width: 581px;
+    height: 402px;
+}
+
+@media (max-width: 1084px){
+    .main_div{
+        flex-direction: column;
+        margin: 80px 0 0 240px;
+    }
+
+    .main_foto_engnet{
+        width: 581px;
+        height: 402px;
+        margin-bottom: 50px;
+    }
+}
+

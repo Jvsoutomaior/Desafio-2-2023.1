@@ -18,12 +18,12 @@ body{
 }
 
 header {
-    margin: 3.5% 5.3% 0 2.98%;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;    
+    margin: 36px 77px 0 43px;
+    border: 1px solid #FFFFFF;  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-height: 115px;
 }
 
 .header p{
@@ -34,20 +34,20 @@ header {
 }
 
 .header__logo{
-    height: 4.3rem;
-    width: 4.3rem;
-    margin: 1.43rem 6.37rem 1.43rem 1.43rem;
+    height: 69px;
+    width: 69px;
+    margin: 23px;
 }
 
 .header__section{
     display: flex;
     flex-direction: row;
+    margin-left: 79px;
 }
 
 .header__div{
     box-sizing: content-box;
-    width: 11.6rem;
-    height: 2.8rem;
+    width: 11.68rem;
     margin: 2.8rem 0px 1.3rem 0px;
 }
 
@@ -65,6 +65,10 @@ header {
     color: white;
 }
 
+.division{
+    flex-grow: 0.7;
+}
+
 .contato{
     display: flex;
     flex-direction: row;
@@ -72,7 +76,7 @@ header {
 
 .contato__text{
     margin: 3.5rem 1rem 2.25rem 5.25rem;
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-secundaria);
     font-weight: 700;
 }
 
@@ -83,37 +87,41 @@ header {
 }
 
 aside{
-    box-sizing: border-box;
     border: 1px solid #FFFFFF;
-    margin: -7.18rem 0px 0.93rem 2.4rem;
-    display: flex;
-    flex-direction: column;
+    margin: -115px 0 31px 43px;
     float:left;
 }
 
-.instagram-logo-div{
-    margin: 48.93rem 2.3rem 1.18rem 2.4rem; 
+.side{
+    height: 957px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.instagram-logo{
-    height: 2.5rem;
-    width: 2.5rem;
-}
-
-.linkedin-logo-div{
-    margin: 0px 0px 19px 37px;
-}
-
-.linkedin-logo{
+.logo{
     height: 40px;
     width: 40px;
 }
 
-.whatsapp-logo-div{
-    margin: 0px 0px 19px 37px;
+.logo-div{
+    margin: 9.5px 38px;
 }
 
-.whatsapp-logo{
-    height: 40px;
-    width: 40px;
+@media (max-width: 1107px){
+    .contato__text{
+        margin: 2.25rem 1rem 2.25rem 5.25rem;
+    }
 }
+
+@media (max-width: 1084px){
+    .contato__text{
+        display: none;
+    }
+
+    .email-logo{
+        display: none;
+    }
+}
+
+
