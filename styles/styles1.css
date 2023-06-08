@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 11.62rem 4.8rem 17.8rem 15rem;
+}
+
+.main_text{
+    gap: 32px;
+}
+
+.main_text1{
+    font: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.main_text2{
+    font: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+}

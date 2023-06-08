@@ -1,0 +1,54 @@
+@import "./style.css";
+
+.link2{
+    color: #FF731A;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section p{
+    font-family: var(--fonte-principal);
+    color: #080808;
+}
+
+.servico{
+    background-color: white;
+    margin: 19.5px 27px;
+    height: 21.43rem;
+    width: 21.43rem;
+    border-radius: 20px;
+}
+
+.app-icon{
+    height: 4rem;
+    width: 4rem;
+    margin: 4.75rem 8.75rem 2.5rem 8.75rem;
+}
+
+.servico_nome{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.servico_text{
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 4.3%;
+    margin-right: 4.3%;
+}
+
+.solution{
+    width: 46.2rem;
+}
+
+.solution img{
+    margin: 4.75rem 19rem 2.5rem 19rem;
+
+}

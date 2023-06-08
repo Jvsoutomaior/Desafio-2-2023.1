@@ -1,0 +1,119 @@
+:root{
+    --fonte-principal: 'Montserrat';
+    --fonte-secundaria: 'Inter';
+}
+
+*{
+    margin: 0px 0px 0px 0px;
+}
+
+a::visited{
+    color: #FF731A;
+}
+
+body{
+    display: 100%;
+    background-color: #080808;
+    color: #FFFFFF;
+}
+
+header {
+    margin: 3.5% 5.3% 0 2.98%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header p{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.12rem;
+    color: white;
+}
+
+.header__logo{
+    height: 4.3rem;
+    width: 4.3rem;
+    margin: 1.43rem 6.37rem 1.43rem 1.43rem;
+}
+
+.header__section{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__div{
+    box-sizing: content-box;
+    width: 11.6rem;
+    height: 2.8rem;
+    margin: 2.8rem 0px 1.3rem 0px;
+}
+
+.header__num {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 0.87rem;
+    color: white;
+}
+
+.header__text{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.12rem;
+    color: white;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+}
+
+.contato__text{
+    margin: 3.5rem 1rem 2.25rem 5.25rem;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+}
+
+.email-logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 2.93rem 1.3rem 1.75rem 0;
+}
+
+aside{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    margin: -7.18rem 0px 0.93rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    float:left;
+}
+
+.instagram-logo-div{
+    margin: 48.93rem 2.3rem 1.18rem 2.4rem; 
+}
+
+.instagram-logo{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.linkedin-logo-div{
+    margin: 0px 0px 19px 37px;
+}
+
+.linkedin-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.whatsapp-logo-div{
+    margin: 0px 0px 19px 37px;
+}
+
+.whatsapp-logo{
+    height: 40px;
+    width: 40px;
+}
